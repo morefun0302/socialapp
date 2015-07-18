@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="area" onClick="onClick">
+		<Label id="btnLabel"></Label>
+		<View id="clickProxy"></View>
+	</View>
+</Alloy>

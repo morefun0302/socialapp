@@ -1,0 +1,45 @@
+"#questionContainer":{
+	height:'50dp'
+}
+
+"#content":{
+	layout:'horizontal',
+}
+
+"#questionText":{
+	color:Alloy.CFG.colors.form_label,
+	font:{
+		fontSize:'11dp'
+	},
+	width:'55%'
+}
+
+".vertical":{
+	height:Ti.UI.SIZE
+}
+
+"#switchPanel":{
+	width:'45%',
+	layout:'horizontal'
+}
+
+"#switchView[platform=ios]":{
+	tintColor:Alloy.CFG.colors.positive
+}
+
+"#switchView[platform=android]":{
+	style:Titanium.UI.Android.SWITCH_STYLE_CHECKBOX
+}
+
+"#answer":{
+	left:'5dp',
+	font:{
+		fontSize:'16dp'
+	},
+	color:Alloy.CFG.colors.positive
+}
+
+".wrapper":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.FILL
+}

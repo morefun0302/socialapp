@@ -1,0 +1,13 @@
+{
+	"id": "LabelButton",
+	"name": "LabelButton",
+	"description" : "Creates a customizable label button.",
+	"author": "Foodtec Solutions Inc.",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"Public Domain",
+	"min-alloy-version": "3.1",
+	"min-titanium-version":"3.2.2GA",
+	"tags":"",
+	"platforms":"android,ios"
+}

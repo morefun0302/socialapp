@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="wndConnectionDown">
+		<View layout="vertical" height="Ti.UI.SIZE">
+			<Label id="connection_label"/>
+			<Button id="btnTry" onClick="try_again"/>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="appFrame" class="container">
+		<View id="display">
+			<View id="menu"></View>
+			<View id="main"></View>
+		</View>
+	</Window>
+</Alloy>

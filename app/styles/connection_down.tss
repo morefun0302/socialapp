@@ -1,0 +1,13 @@
+"#wndConnectionDown":{
+	navBarHidden: true,
+	backgroundColor:Alloy.CFG.colors.colora,
+	layout:'composite'
+}
+
+"#connection_label":{
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#btnTry":{
+	titleid: 'try_again'
+}

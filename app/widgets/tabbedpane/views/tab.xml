@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="container" onClick="tab_Click">
+	    <View id="titleContainer">
+	        <Label id="title" onClick="tab_Click" />
+	    </View>
+	    <View id="iconContainer">
+	        <Label id="icon" text="j"/>
+	    </View>
+	</View>
+</Alloy>

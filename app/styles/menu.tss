@@ -1,0 +1,22 @@
+"#menuView":{
+	left:0,
+	width:'50%',
+	backgroundColor:Alloy.CFG.colors.menu
+}
+
+"#menuTable[platform=android]":{
+	layout: 'vertical'
+}
+
+"#menuTable[platform=ios]":{
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.NONE,
+	layout: 'vertical'
+}
+
+".menuButton":{
+	height:'50dp'
+}
+
+"Label":{
+	color:Alloy.CFG.colors.menu_text
+}

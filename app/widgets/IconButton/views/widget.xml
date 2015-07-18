@@ -1,0 +1,6 @@
+<Alloy>
+    <View id="content">
+        <Label id="lblIcon" class="icon"/>
+        <Label id="lblText" class="text"/>
+    </View>
+</Alloy>

@@ -1,0 +1,11 @@
+"#container":{
+	height:Ti.UI.FILL
+}
+
+"#tabContainer":{
+
+}
+
+"#content":{
+	height:Ti.UI.FILL
+}

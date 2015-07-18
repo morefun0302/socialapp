@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+	<!--GENERAL PROMPTS-->
+	<string name="generic_error">An unexpected error occured serving your request.</string>
+	<string name="internet_error">Your device is not connected to the internet.</string>
+	<string name="server_error">Our service is temporarily unavailable.</string>
+	<string name="connection_down">Your device is unable to connect to our service.</string>
+	<string name="try_again">Try again.</string>
+	<string name="warning">Warning</string>
+	<string name="invalid_credentials">Invalid Credentials</string>
+	<string name="instructions">Instructions</string>
+	<string name="congrats">Congratulations</string>
+	<string name="info">Info</string>
+	<string name="empty_text"> cannot be empty.</string>
+	<string name="done">DONE</string>
+	<string name="lblCancel">Cancel</string>
+	<string name="lblOk">Ok</string>
+	<string name="pressAgainToExit">Press again to exit.</string>
+	<string name="payment_prompt">PAY NOW</string>
+	<string name="back">BACK</string>
+	<string name="next">NEXT</string>
+	<string name="positive_integer">Please enter a positive number</string>
+	<string name="redirect_notice">Redirect Notice</string>
+	<string name="could_not_refresh">Could not refresh, please try again, later</string>
+
+	<!--VALIDATION-->
+	<string name="email_validation">Please enter a valid email.</string>
+	<string name="password_validation">Please use a password with at least 5 and up to 30 characters.</string>
+	<string name="max_length_validation">{name} should be {digits} characters/digits</string>
+	<string name="same_password_validation"> is not the same as </string>
+	<string name="digits_only_validation">{name} number should be {digits} digits</string>
+
+	<!-- HOME -->
+	<string name="logo">In Your City</string>
+
+	<!-- MENU -->
+	<string name="home">Home</string>
+	<string name="portofolio">Portofolio</string>
+	<string name="aboutus">About us</string>
+	<string name="contact">Contact us</string>
+
+</resources>

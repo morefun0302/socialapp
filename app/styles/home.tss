@@ -1,0 +1,30 @@
+"#topBar":{
+	width:Ti.UI.FILL,
+	height:'10%',
+	backgroundColor:Alloy.CFG.colors.colora
+}
+"#menuButtonArea":{
+	left: 0,
+	width:'50dp'
+}
+
+"#logo":{
+	textid:'logo'
+}
+
+"#menuButton":{
+	text: Alloy.CFG.font.menu,
+	height: Ti.UI.FILL,
+	width: '50dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	visible: true,
+	color:Alloy.CFG.colors.text_color
+}
+"#backButton":{
+	text: Alloy.CFG.font.back,
+	height: Ti.UI.FILL,
+	width: '50dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	visible: false,
+	color:Alloy.CFG.colors.text_color
+}

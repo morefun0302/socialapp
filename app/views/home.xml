@@ -1,0 +1,14 @@
+<Alloy>
+	<View class="container">
+		<View id="topBar">
+			<View id="menuButtonArea">
+				<Label id="menuButton" class="customfont" onClick="menu_toggle"></Label>
+				<Label id="backButton" class="customfont" onClick="menu_back"></Label>
+			</View>
+			<Label id="logo"/>
+		</View>
+		<View id="main_view">
+			<Require src="welcome" type="view" />
+		</View>
+	</View>
+</Alloy>

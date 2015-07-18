@@ -1,0 +1,3 @@
+<Alloy>
+	<AlertDialog id="dialog" onClick="doConfirmation"/>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="container">
+	    <View id="content"></View>
+	    <View id="tabContainer"></View>
+	</View>
+</Alloy>

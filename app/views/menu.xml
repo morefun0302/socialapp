@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="menuView" class="container_b">
+		<ScrollView id="menuTable">
+			<View class="menuButton">
+				<Label textid="home"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="portofolio"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="aboutus"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="contact"/>
+			</View>
+    </ScrollView>
+	</View>
+</Alloy>

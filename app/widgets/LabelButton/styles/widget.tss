@@ -1,0 +1,8 @@
+"#btnLabel": {
+    left: '5dp',
+    width: Ti.UI.SIZE
+}
+"#clickProxy": {
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}

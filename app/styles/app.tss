@@ -1,0 +1,61 @@
+"TextField": {
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	width: "80%",
+	height: "40dp"
+}
+
+"Label":{
+	color:Alloy.CFG.colors.text_color
+}
+
+".form":{
+	backgroundColor: Alloy.CFG.colors.form_back,
+	layout:'vertical',
+	navBarHidden:true,
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+".container":{
+	backgroundColor: Alloy.CFG.colors.colora,
+	layout:'vertical',
+	navBarHidden:true,
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+".container_b":{
+	backgroundColor: Alloy.CFG.colors.colorb,
+	layout:'vertical',
+	navBarHidden:true,
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+".vertical_spacer":{
+	top:'5dp'
+}
+
+".vertical-wrapper":{
+	height:Ti.UI.SIZE
+}
+
+".customfont":{
+	font:{
+		fontFamily:'customerapp',
+		fontSize:'24dp'
+	}
+}
+
+".staticLabel":{
+	font:{fontSize:'11dp'},
+	left:0,
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	color:Alloy.CFG.colors.form_label
+}
+
+".light_bold":{
+	font:{
+		fontSize:'13dp',
+		fontWeight:'bold'
+	}
+}

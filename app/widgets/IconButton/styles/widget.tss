@@ -1,0 +1,16 @@
+"#content": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    layout: 'horizontal'
+}
+".text": {
+    left: '10dp'
+}
+".icon": {
+    font: {
+        fontFamily: 'customerapp',
+        fontSize: '24dp'
+    }
+}
+"#lblIcon": {}
+"#lblText": {}

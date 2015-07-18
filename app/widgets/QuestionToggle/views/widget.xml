@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="questionContainer">
+	    <View id="content" class="vertical">
+	        <Label id="questionText"/>
+            <View id="switchPanel" onClick="toggle">
+                <View class="wrapper">
+                    <Switch id="switchView" value="true"/>
+                </View>
+                <Label id="answer"/>
+            </View>
+	    </View>
+	</View>
+</Alloy>

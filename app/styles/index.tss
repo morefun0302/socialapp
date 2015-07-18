@@ -1,0 +1,13 @@
+"#appFrame":{
+	exitOnClose:true
+}
+
+"#display":{}
+
+"#menu":{}
+
+"#main":{}
+
+".container":{
+	backgroundColor:Alloy.CFG.colors.colora
+}

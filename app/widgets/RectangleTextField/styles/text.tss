@@ -1,0 +1,7 @@
+"#field":{
+	backgroundColor: Alloy.CFG.colors.form_textfield_background,
+	paddingLeft:'7dp',
+	paddingRight:'7dp',
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL
+}
