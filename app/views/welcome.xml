@@ -1,0 +1,10 @@
+<Alloy>
+    <View id="container" class="container">
+    	<Label id="welcome_prompt"/>
+      <View>
+        <View id="facebook" onClick="doLogin">
+            <Widget src="IconButton" id="fbbutton"/>
+        </View>
+      </View>
+    </View>
+</Alloy>

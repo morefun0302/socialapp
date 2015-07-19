@@ -1,0 +1,8 @@
+"#container":{
+  layout:'composite'
+}
+
+"#details":{
+  height:Ti.UI.SIZE,
+  layout:'vertical'
+}

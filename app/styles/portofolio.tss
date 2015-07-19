@@ -1,0 +1,16 @@
+"#container":{
+  layout:'composite',
+  backgroundColor:'#000000'
+}
+
+"#photoArea":{
+  height:Ti.UI.SIZE,
+  layout:'vertical'
+}
+
+"#photo":{}
+
+"#description":{
+  top:'5dp',
+  width:'80%'
+}
