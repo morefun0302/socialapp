@@ -103,8 +103,6 @@ function swapContent(proxy) {
 
     var controller = Alloy.createController(target, args);
 
-    Alloy.Globals.ga.sendTabView(target);
-
     var lastTabContent = _.first($.content.children);
     $.content.add(controller.getView());
     if (lastTabContent) {

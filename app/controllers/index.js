@@ -2,19 +2,6 @@ var log = Alloy.Globals.log;
 var tag = '[INDEX]';
 var _navgiation;
 
-$.appFrame.addEventListener('open', function(){
-	if (OS_ANDROID) {
-		if (! $.appFrame.activity) {
-			log.write('Cannot hide action bar.',tag);
-		} else {
-			var actionBar = $.appFrame.activity.actionBar;
-			if (actionBar) {
-				actionBar.hide();
-			}
-		}
-	}
-});
-
 var EventDispatcher = Alloy.Globals.EventDispatcher;
 EventDispatcher.on(EventDispatcher.get('Events').BOOT, init);
 
@@ -38,6 +25,22 @@ function init() {
 
     $.appFrame.addEventListener('androidback', back);
     EventDispatcher.on(EventDispatcher.get('Events').APP_EXIT, exit);
+		disableActionBar();
+}
+
+function disableActionBar() {
+	$.appFrame.addEventListener('open', function(){
+		if (OS_ANDROID) {
+			if (! $.appFrame.activity) {
+				log.write('Cannot hide action bar.',tag);
+			} else {
+				var actionBar = $.appFrame.activity.actionBar;
+				if (actionBar) {
+					actionBar.hide();
+				}
+			}
+		}
+	});
 }
 
 function back() {

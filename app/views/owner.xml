@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="container">
+		<Widget src="TabbedPane" name="tabgroup"  id="ownerTabs"/>
+	</View>
+</Alloy>

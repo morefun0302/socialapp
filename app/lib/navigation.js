@@ -106,7 +106,7 @@ function Navigation(_initParams) {
     }
 
     function openPage(opts) {
-    	
+
         if (!addToHistory(opts) || hold) {
             return;
         }
@@ -115,26 +115,20 @@ function Navigation(_initParams) {
         var isRootView = history.length === 1;
 
         menuClose().then(function() {
-        	var view;
-        	if (opts.controller == 'survey' && Alloy.Globals.surveyView != null) {
-        		view = Alloy.Globals.surveyView;
-        	} else {
-        		view = Alloy.createController(opts.controller, opts.arguments).getView();		
-        	}
-            var EventDispatcher = Alloy.Globals.EventDispatcher;
-            EventDispatcher.trigger(EventDispatcher.get('Events').PAGE_OPENED, {
-                controller : opts.controller
-            });
-            Alloy.Globals.ga.clearTab();
-            if (!isRootView) {
-                view.left = '100%';
-                view.right = '-100%';
-            }
-            container.add(view);
-            validateState();
-            if (!isRootView) {
-                return Anim.slideToLeft(view, slideAnimTime);
-            }
+          var view = Alloy.createController(opts.controller, opts.arguments).getView();
+          var EventDispatcher = Alloy.Globals.EventDispatcher;
+          EventDispatcher.trigger(EventDispatcher.get('Events').PAGE_OPENED, {
+           controller : opts.controller
+          });
+          if (!isRootView) {
+            view.left = '100%';
+            view.right = '-100%';
+          }
+          container.add(view);
+          validateState();
+          if (!isRootView) {
+            return Anim.slideToLeft(view, slideAnimTime);
+          }
         }).then(function() {
             hold = false;
         }).done();
@@ -143,7 +137,7 @@ function Navigation(_initParams) {
     function popPage(fireFocusOnPrevious, noAnimation) {
         var page = pop();
         var lastPage = getLastPage();
-        
+
         if (page.controller == 'survey') {
         	Alloy.Globals.surveyView = lastPage;
         }
@@ -203,10 +197,6 @@ function Navigation(_initParams) {
         }
     }
 
-    function isOnWebOrdering() {
-        return lastPageBelongsToGroup(groups.ORDERING);
-    }
-
     function reset() {
         while (history.length > 0) {
             popPage(false, true);
@@ -232,7 +222,6 @@ function Navigation(_initParams) {
         goBack : goBack,
         refresh : refresh,
         closeGroup : closeGroup,
-        isOnWebOrdering: isOnWebOrdering,
         reset : reset,
         GROUPS : groups
     };

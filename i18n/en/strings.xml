@@ -6,7 +6,6 @@
 	<string name="internet_error">Your device is not connected to the internet.</string>
 	<string name="server_error">Our service is temporarily unavailable.</string>
 	<string name="connection_down">Your device is unable to connect to our service.</string>
-	<string name="try_again">Try again.</string>
 	<string name="warning">Warning</string>
 	<string name="invalid_credentials">Invalid Credentials</string>
 	<string name="instructions">Instructions</string>
@@ -23,6 +22,9 @@
 	<string name="positive_integer">Please enter a positive number</string>
 	<string name="redirect_notice">Redirect Notice</string>
 	<string name="could_not_refresh">Could not refresh, please try again, later</string>
+	<string name="please_wait">Please wait...</string>
+	<string name="error">Oops</string>
+	<string name="try_again">Something went wrong, please try again!</string>
 
 	<!--VALIDATION-->
 	<string name="email_validation">Please enter a valid email.</string>
@@ -33,11 +35,26 @@
 
 	<!-- HOME -->
 	<string name="logo">In Your City</string>
+	<string name="welcome_promt">Welcome to In Your City app. This thing rocks!</string>
+	<string name="loginWithFacebook">Login with facebook</string>
 
 	<!-- MENU -->
 	<string name="home">Home</string>
 	<string name="portofolio">Portofolio</string>
 	<string name="aboutus">About us</string>
 	<string name="contact">Contact us</string>
+
+	<!-- EMPLOYEE -->
+	<string name="auto_like">Support my place</string>
+	<string name="thank">Thank you!</string>
+	<string name="support">Thank you for supporting your workplace in the social media!</string>
+
+	<!-- ABOUT US -->
+	<string name="about_us_description">We are a bunch of cool people doing cool stuff!</string>
+	<string name="services_title">Check out our services below</string>
+
+	<!-- CONTACT US -->
+	<string name="contact_email">Send us an email to: </string>
+	<string name="contact_phone">Or give us a call at:</string>
 
 </resources>

@@ -9,7 +9,7 @@ function couldNotBoot(msg) {
 }
 
 function start() {
-    log.write('start', tag);
+    log.write('Starting In Your City app.', tag);
     var index = Alloy.createController('index');
     index.getView().open();
     EventDispatcher.trigger(EventDispatcher.get('Events').BOOT);

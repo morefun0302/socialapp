@@ -1,3 +1,15 @@
-"#fblogin":{
-	title: 'Login with Facebook'
+"#welcome_prompt":{
+	textid:'welcome_promt',
+	width:'80%'
+}
+
+"#facebook":{
+	height:'70dp',
+	backgroundColor:Alloy.CFG.colors.colorb
+}
+
+"#fbbutton":{
+
+	textid:'loginWithFacebook',
+	icon:Alloy.CFG.font.facebook
 }

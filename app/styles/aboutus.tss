@@ -1,0 +1,15 @@
+"#container":{}
+
+"#aboutus":{
+  width:'80%',
+  textid:'about_us_description'
+}
+
+"#servicesTitle":{
+  width:'80%',
+  textid:'services_title'
+}
+
+"#services":{
+  layout:'vertical'
+}

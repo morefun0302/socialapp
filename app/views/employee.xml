@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="container" class="container">
+		<Label id="name"/>
+		<Label id="company"/>
+		<View>
+			<View id="autoLike" onClick="autoLike">
+				<Widget src="IconButton" id="autoLikeButton"/>
+			</View>
+		</View>
+	</View>
+</Alloy>

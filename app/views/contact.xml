@@ -1,0 +1,8 @@
+<Alloy>
+  <View id="container" class="container">
+    <View id="details">
+      <Label id="email"/>
+      <Label id="phone"/>
+    </View>
+  </View>
+</Alloy>

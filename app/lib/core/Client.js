@@ -7,20 +7,20 @@ var client = (function(){
     function getResponse(status, responseText) {
     	log.write( "Received response : " + status, tag);
     	try {
-    		var response = JSON.parse(responseText);
-            log.verbose(JSON.stringify(response, null, '\t'),tag);
+    		var resp = JSON.parse(responseText);
+            log.verbose(JSON.stringify(resp, null, '\t'),tag);
     	}
     	catch (ex) {
-    		response = {};
+    		resp = {};
     	}
-    	return response;
+    	return resp;
     }
 
     function createClient(opts){
-        var _timeout = Number(opts.timeout) || 10000;
+        var _timeout = Number(opts.timeout) || 5000;
         var _url = opts.url;
         var _method = opts.method;
-        var _data = opts.data;
+        var _data = JSON.stringify(opts.data);
         var _headers = opts.headers || {};
 
         var _callback = opts.callback;
@@ -45,10 +45,10 @@ var client = (function(){
                 var responseText = this.responseText;
                 var response = getResponse(status, responseText);
                 var     isOnline = net.isOnline(),
-                        isServerDown = (status == net.HttpStatus.TIMEOUT ||
-                            status == net.HttpStatus.SERVICE_UNAVAILABLE ||
-                            status == 0),
-                        isUnauthorized = (status == net.HttpStatus.UNAUTHORIZED);
+                        isServerDown = (status === net.HttpStatus.TIMEOUT ||
+                            status === net.HttpStatus.SERVICE_UNAVAILABLE ||
+                            status === 0),
+                        isUnauthorized = (status === net.HttpStatus.UNAUTHORIZED);
 
                 _callback({
                     success:false,
@@ -67,7 +67,7 @@ var client = (function(){
         log.write('Opening client for ' + _method + ' ' + (_url), tag);
 
         for(var name in _headers) {
-            log.info('Header: ' + name + ' : ' + _headers[name], tag);
+            log.write('Header: ' + name + ' : ' + _headers[name], tag);
             xhr.setRequestHeader(name, _headers[name]);
         }
         xhr.setAutoRedirect(true);

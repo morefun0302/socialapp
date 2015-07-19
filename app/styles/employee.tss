@@ -1,0 +1,20 @@
+
+"#container" : {}
+
+"#name":{
+  top:'5dp'
+}
+
+"#company":{
+  top:'5dp'
+}
+
+"#autoLike":{
+  height:'70dp',
+  backgroundColor:Alloy.CFG.colors.colorb
+}
+
+"#autoLikeButton":{
+  icon:Alloy.CFG.font.facebook,
+  textid:'auto_like'
+}

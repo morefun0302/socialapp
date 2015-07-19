@@ -1,0 +1,31 @@
+
+"#container" : {
+
+}
+
+"#ownerTabs":{
+  tabs: [{
+        name:"EMPLOYEES",
+        target:"employees",
+        args:{}
+    }, {
+        name:"REPORT",
+        target:"report",
+        args:{}
+    }, {
+    	name:"AUTO LIKE",
+    	target:"employee",
+    	args:{}
+    }],
+    tabInactiveColor:Alloy.CFG.colors.text_color,
+    tabsOnTop: true,
+    tabStripEnabled: true,
+    displayInitially: true,
+    savedIndexName: 'ownerTabs',
+    tabFont : {fontSize:'12dp',fontWeight:'bold'},
+    tabIconFont : {fontFamily:'customerapp', fontSize:'9dp'},
+    tabHeight:'30dp',
+    tabStripHeight:'25dp',
+    tabIconHeight:'10dp',
+    tabSpacing:'15dp'
+}

@@ -1,5 +1,0 @@
-<Alloy>
-    <View id="container" class="container">
-    	<Button id="fblogin" onClick="doLogin" />
-    </View>
-</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+  <View id="container" class="container">
+    <Label id="aboutus"/>
+    <Label id="servicesTitle"/>
+    <View id="services"/>
+  </View>
+</Alloy>

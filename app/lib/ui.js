@@ -39,7 +39,7 @@ exports.getLoader = function(msg) {
 
 exports.getSmallLoader = function() {
 	return Alloy.createWidget('com.caffeinalab.titanium.loader', {
-		message : "Loading...",
+		message : L('please_wait'),
 		cancelable : false,
 		useImages : false
 	});

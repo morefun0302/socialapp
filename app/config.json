@@ -7,13 +7,17 @@
         "QuestionToggle": "1.0",
         "com.caffeinalab.titanium.loader": "*"
     },
+    "settings":{
+      "server":"http://192.168.1.6:8080/api",
+      "email":"info@inyourcity.gr",
+      "phone":"2310200002"
+    },
     "colors": {
-        "colora": "#8181FC",
-        "colorb": "#0032fc",
-        "colorc": "#2c00fc",
+        "colora": "#20A8BB",
+        "colorb": "#0391A5",
         "text_color": "#ffffff",
 
-        "menu": "#0032fc",
+        "menu": "#0391A5",
         "menu_text":"#ffffff",
 
 
@@ -60,7 +64,7 @@
     "facebook": {
         "appid": "1436085700041480",
         "permissions": [
-            "email"
+            "public_profile","email","publish_actions"
         ]
     }
 }
